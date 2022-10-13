@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Demo App qdPM Suite"  parallel="methods" thread-count="5">
+
+ 
+  <listeners>
+  
+  	<listener class-name="reuseableComponents.ListenersImplementation"></listener>
+  
+  </listeners>
+   
+  <test name = "Ecommerce"> <!--oprncart,orangehrm,prestashop -->
+    <classes>
+      <class name="tests.SampleTestCase_2"/>
+      <class name="tests.SampleTestClass"/>
+    </classes>
+  </test> 
+  
+  <!-- 
+  <test name = "Website">   google,facebook.myantra,amazon 
+    <classes>
+       <class name="tests.SampleTestClass"/>
+    </classes>
+  </test>    sample test -->
+  
+  
+  
+ 
+</suite> <!-- qdPM Suite -->

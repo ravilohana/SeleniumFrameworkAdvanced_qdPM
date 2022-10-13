@@ -1,0 +1,14 @@
+[INFO ] 2022-10-13 18:11:54.881 - testBase.MyLogger:startTestCase 18==>  
+
+************** Execution Started : prestashop**************
+
+[INFO ] 2022-10-13 18:12:01.036 - tests.SampleTestCase_2:prestashop 43==>  Prestashop page lauched....
+[INFO ] 2022-10-13 18:12:01.067 - tests.SampleTestCase_2:prestashop 45==>  Prestashop page title retrieve....
+[INFO ] 2022-10-13 18:12:01.068 - tests.SampleTestCase_2:prestashop 47==>  Assertion done for PrestaShop
+[INFO ] 2022-10-13 18:19:06.358 - testBase.MyLogger:startTestCase 18==>  
+
+************** Execution Started : prestashop**************
+
+[INFO ] 2022-10-13 18:19:09.228 - tests.SampleTestCase_2:prestashop 43==>  Prestashop page lauched....
+[INFO ] 2022-10-13 18:19:12.700 - tests.SampleTestCase_2:prestashop 45==>  Prestashop page title retrieve....
+[INFO ] 2022-10-13 18:19:12.704 - tests.SampleTestCase_2:prestashop 47==>  Assertion done for PrestaShop

@@ -1,0 +1,6 @@
+[INFO ] 2022-10-13 18:19:06.339 - testBase.MyLogger:startTestCase 18==>  
+
+************** Execution Started : amazon**************
+
+[INFO ] 2022-10-13 18:19:09.821 - tests.SampleTestClass:amazon 51==>  Amazone page lauched....
+[INFO ] 2022-10-13 18:19:10.181 - tests.SampleTestClass:amazon 53==>  Amazon page title retrieve....

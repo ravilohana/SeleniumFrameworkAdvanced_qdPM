@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-13T18:18:57 IST" name="Demo App qdPM Suite" finished-at="2022-10-13T18:19:18 IST" duration-ms="20861">
+    <groups>
+      <group name="Smoke">
+        <method signature="SampleTestCase_2.openCart()[pri:0, instance:tests.SampleTestCase_2@ffaa6af]" name="openCart" class="tests.SampleTestCase_2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-10-13T18:18:57 IST" name="Ecommerce" finished-at="2022-10-13T18:19:18 IST" duration-ms="20861">
+      <class name="tests.SampleTestCase_2">
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:tests.SampleTestCase_2@ffaa6af]" started-at="2022-10-13T18:18:58 IST" name="lauchApplication" finished-at="2022-10-13T18:19:05 IST" duration-ms="7086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:tests.SampleTestCase_2@ffaa6af]" started-at="2022-10-13T18:18:58 IST" name="lauchApplication" finished-at="2022-10-13T18:19:05 IST" duration-ms="7018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:tests.SampleTestCase_2@ffaa6af]" started-at="2022-10-13T18:18:58 IST" name="lauchApplication" finished-at="2022-10-13T18:19:05 IST" duration-ms="7018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="openCart()[pri:0, instance:tests.SampleTestCase_2@ffaa6af]" started-at="2022-10-13T18:19:05 IST" name="openCart" finished-at="2022-10-13T18:19:08 IST" duration-ms="3439" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1Your Store] but found [Your Store]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1Your Store] but found [Your Store]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests.SampleTestCase_2.openCart(SampleTestCase_2.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCart -->
+        <test-method signature="prestashop()[pri:0, instance:tests.SampleTestCase_2@ffaa6af]" started-at="2022-10-13T18:19:05 IST" name="prestashop" finished-at="2022-10-13T18:19:12 IST" duration-ms="7644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prestashop -->
+        <test-method signature="orangeHRM()[pri:0, instance:tests.SampleTestCase_2@ffaa6af]" started-at="2022-10-13T18:19:05 IST" name="orangeHRM" finished-at="2022-10-13T18:19:12 IST" duration-ms="7313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRM -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SampleTestCase_2@ffaa6af]" started-at="2022-10-13T18:19:11 IST" name="tearDown" finished-at="2022-10-13T18:19:12 IST" duration-ms="905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SampleTestCase_2@ffaa6af]" started-at="2022-10-13T18:19:12 IST" name="tearDown" finished-at="2022-10-13T18:19:12 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SampleTestCase_2@ffaa6af]" started-at="2022-10-13T18:19:12 IST" name="tearDown" finished-at="2022-10-13T18:19:13 IST" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SampleTestCase_2 -->
+      <class name="tests.SampleTestClass">
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:tests.SampleTestClass@4d5650ae]" started-at="2022-10-13T18:18:58 IST" name="lauchApplication" finished-at="2022-10-13T18:19:05 IST" duration-ms="7014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:tests.SampleTestClass@4d5650ae]" started-at="2022-10-13T18:18:58 IST" name="lauchApplication" finished-at="2022-10-13T18:19:05 IST" duration-ms="7081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="facebook()[pri:0, instance:tests.SampleTestClass@4d5650ae]" started-at="2022-10-13T18:19:05 IST" name="facebook" finished-at="2022-10-13T18:19:10 IST" duration-ms="5522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method signature="amazon()[pri:0, instance:tests.SampleTestClass@4d5650ae]" started-at="2022-10-13T18:19:05 IST" name="amazon" finished-at="2022-10-13T18:19:10 IST" duration-ms="5065" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests.SampleTestClass.amazon(SampleTestClass.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SampleTestClass@4d5650ae]" started-at="2022-10-13T18:19:10 IST" name="tearDown" finished-at="2022-10-13T18:19:11 IST" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:tests.SampleTestClass@4d5650ae]" started-at="2022-10-13T18:19:11 IST" name="lauchApplication" finished-at="2022-10-13T18:19:14 IST" duration-ms="2859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:tests.SampleTestClass@4d5650ae]" started-at="2022-10-13T18:19:12 IST" name="lauchApplication" finished-at="2022-10-13T18:19:15 IST" duration-ms="2732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SampleTestClass@4d5650ae]" started-at="2022-10-13T18:19:13 IST" name="tearDown" finished-at="2022-10-13T18:19:13 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="google()[pri:0, instance:tests.SampleTestClass@4d5650ae]" started-at="2022-10-13T18:19:14 IST" name="google" finished-at="2022-10-13T18:19:16 IST" duration-ms="2275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method signature="twitter()[pri:0, instance:tests.SampleTestClass@4d5650ae]" started-at="2022-10-13T18:19:15 IST" name="twitter" finished-at="2022-10-13T18:19:17 IST" duration-ms="2806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twitter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SampleTestClass@4d5650ae]" started-at="2022-10-13T18:19:16 IST" name="tearDown" finished-at="2022-10-13T18:19:16 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SampleTestClass@4d5650ae]" started-at="2022-10-13T18:19:17 IST" name="tearDown" finished-at="2022-10-13T18:19:18 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SampleTestClass -->
+    </test> <!-- Ecommerce -->
+  </suite> <!-- Demo App qdPM Suite -->
+</testng-results>
