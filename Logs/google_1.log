@@ -1,7 +1,0 @@
-[INFO ] 2022-10-13 18:19:14.266 - testBase.MyLogger:startTestCase 18==>  
-
-************** Execution Started : google**************
-
-[INFO ] 2022-10-13 18:19:16.325 - tests.SampleTestClass:google 21==>  Google page lauched....
-[INFO ] 2022-10-13 18:19:16.533 - tests.SampleTestClass:google 23==>  Google page title retrieve....
-[INFO ] 2022-10-13 18:19:16.541 - tests.SampleTestClass:google 25==>  Assertion done for google
